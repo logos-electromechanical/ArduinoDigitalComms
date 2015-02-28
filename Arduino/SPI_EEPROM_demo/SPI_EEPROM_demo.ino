@@ -18,8 +18,6 @@
 #define MAXADDR 65000
 
 void setup() {
-  char s;
-  
   SPI.begin();
   SPI.setBitOrder(MSBFIRST);
   SPI.setDataMode(SPI_MODE0);
